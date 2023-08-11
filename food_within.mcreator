@@ -1,0 +1,605 @@
+{
+  "mod_elements": [
+    {
+      "name": "VoidApple",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_apple",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/food_within/models/item/void_apple.json",
+          "src/main/java/net/mcreator/foodwithin/item/VoidAppleItem.java"
+        ]
+      }
+    },
+    {
+      "name": "FoodWithin",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "food_within",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "VoidApplePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_apple_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/foodwithin/procedures/VoidApplePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PartialLightApple",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "partial_light_apple",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/foodwithin/item/PartialLightAppleItem.java",
+          "src/main/resources/assets/food_within/models/item/partial_light_apple.json"
+        ]
+      }
+    },
+    {
+      "name": "VoidToPartialAppleRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_to_partial_apple_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/food_within/recipes/void_to_partial_apple_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "LightApple",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_apple",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/foodwithin/item/LightAppleItem.java",
+          "src/main/resources/assets/food_within/models/item/light_apple.json"
+        ]
+      }
+    },
+    {
+      "name": "LightApplePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_apple_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/foodwithin/procedures/LightApplePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IncompleteLightAppleItemIsDroppedByPlayer",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "incomplete_light_apple_item_is_dropped_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/foodwithin/procedures/IncompleteLightAppleItemIsDroppedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IncompleteLightApple",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "incomplete_light_apple",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/foodwithin/item/IncompleteLightAppleItem.java",
+          "src/main/resources/assets/food_within/models/item/incomplete_light_apple.json"
+        ]
+      }
+    },
+    {
+      "name": "HeavenlyApplePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavenly_apple_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/foodwithin/procedures/HeavenlyApplePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HeavenlyApple",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavenly_apple",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/food_within/models/item/heavenly_apple.json",
+          "src/main/java/net/mcreator/foodwithin/item/HeavenlyAppleItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SicklyApplePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sickly_apple_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/foodwithin/procedures/SicklyApplePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SicklyApple",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sickly_apple",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/foodwithin/item/SicklyAppleItem.java",
+          "src/main/resources/assets/food_within/models/item/sickly_apple.json"
+        ]
+      }
+    },
+    {
+      "name": "VirusApplePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "virus_apple_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/foodwithin/procedures/VirusApplePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VirusApple",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "virus_apple",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/foodwithin/item/VirusAppleItem.java",
+          "src/main/resources/assets/food_within/models/item/virus_apple.json"
+        ]
+      }
+    },
+    {
+      "name": "ViralAppleRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "viral_apple_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/food_within/recipes/viral_apple_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "HeavenlyAppleItemIsDroppedByPlayer",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavenly_apple_item_is_dropped_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/foodwithin/procedures/HeavenlyAppleItemIsDroppedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PathogenPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pathogen_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/foodwithin/procedures/PathogenPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Pathogen",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pathogen",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/food_within/models/item/pathogen.json",
+          "src/main/java/net/mcreator/foodwithin/item/PathogenItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DragonApplePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_apple_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/foodwithin/procedures/DragonApplePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DragonApple",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_apple",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/food_within/models/item/dragon_apple.json",
+          "src/main/java/net/mcreator/foodwithin/item/DragonAppleItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AppleOfTheDeepPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apple_of_the_deep_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/foodwithin/procedures/AppleOfTheDeepPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AppleOfTheDeep",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apple_of_the_deep",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/food_within/models/item/apple_of_the_deep.json",
+          "src/main/java/net/mcreator/foodwithin/item/AppleOfTheDeepItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PiglinApple",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "piglin_apple",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/food_within/models/item/piglin_apple.json",
+          "src/main/java/net/mcreator/foodwithin/item/PiglinAppleItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PigmanAppleLootTable",
+      "type": "loottable",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pigman_apple_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/zombie_pigman.json"
+        ]
+      }
+    },
+    {
+      "name": "VoidAppleLootTable",
+      "type": "loottable",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_apple_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/chests/end_city_treasure.json"
+        ]
+      }
+    },
+    {
+      "name": "SicklyAppleLootTable",
+      "type": "loottable",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sickly_apple_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/zombie.json"
+        ]
+      }
+    },
+    {
+      "name": "DragonAppleLootTable",
+      "type": "loottable",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_apple_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/ender_dragon.json"
+        ]
+      }
+    },
+    {
+      "name": "DeepAppleLootTable",
+      "type": "loottable",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_apple_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/warden.json"
+        ]
+      }
+    },
+    {
+      "name": "PartialToIncompleteAppleRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "partial_to_incomplete_apple_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/food_within/recipes/partial_to_incomplete_apple_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PathogenRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pathogen_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/food_within/recipes/pathogen_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CrystalApple",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_apple",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/foodwithin/item/CrystalAppleItem.java",
+          "src/main/resources/assets/food_within/models/item/crystal_apple.json"
+        ]
+      }
+    },
+    {
+      "name": "CrystalAppleRecipe",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_apple_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/food_within/recipes/crystal_apple_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PatchouliGuidebookRecipe",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "patchouli_guidebook_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/food_within/recipes/patchouli_guidebook_recipe.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.food_within.pathogen": "Pathogen",
+      "item.food_within.apple_of_the_deep": "Apple Of The Deep",
+      "item.food_within.virus_apple": "Viral Apple",
+      "item.food_within.sickly_apple": "Sickly Apple",
+      "item.food_within.light_apple": "Light Apple",
+      "item.food_within.dragon_apple": "Dragon Apple",
+      "item.food_within.void_apple": "Void Apple",
+      "item.food_within.piglin_apple": "Pigman Apple",
+      "item.food_within.crystal_apple": "Crystal Apple",
+      "item.food_within.incomplete_light_apple": "Incomplete Light Apple",
+      "itemGroup.tabfood_within": "Food Within",
+      "item.food_within.partial_light_apple": "Partial Light Apple",
+      "item.food_within.heavenly_apple": "Heavenly Apple"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "food_within",
+    "modName": "Food Within",
+    "version": "1.0.0",
+    "description": "A mod that adds food within different types of mobs. Most if not all mobs will have a one to many different food drops.",
+    "author": "Kade",
+    "websiteURL": "https://mcreator.net",
+    "license": "MIT License",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "patchouli",
+      "jei"
+    ],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created Using MCreator",
+    "modElementsPackage": "net.mcreator.foodwithin",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}
