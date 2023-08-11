@@ -1,0 +1,46 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.SEA_LANTERN"
+      },
+      {
+        "value": "Blocks.GLOWSTONE"
+      },
+      {
+        "value": "Blocks.SEA_LANTERN"
+      },
+      {
+        "value": "Blocks.GLOWSTONE"
+      },
+      {
+        "value": "CUSTOM:PartialLightApple"
+      },
+      {
+        "value": "Blocks.GLOWSTONE"
+      },
+      {
+        "value": "Blocks.SEA_LANTERN"
+      },
+      {
+        "value": "Blocks.GLOWSTONE"
+      },
+      {
+        "value": "Blocks.SEA_LANTERN"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:IncompleteLightApple"
+    },
+    "name": "partial_to_incomplete_apple_recipe",
+    "namespace": "mod"
+  }
+}

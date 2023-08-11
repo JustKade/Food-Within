@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:beacon"
+    },
+    "3": {
+      "item": "minecraft:prismarine_crystals"
+    },
+    "4": {
+      "item": "minecraft:apple"
+    },
+    "5": {
+      "item": "minecraft:prismarine_crystals"
+    },
+    "7": {
+      "item": "minecraft:beacon"
+    }
+  },
+  "result": {
+    "item": "food_within:crystal_apple",
+    "count": 1
+  }
+}
