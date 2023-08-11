@@ -1,0 +1,11 @@
+{
+    "name": "Pigman Apple",
+    "icon": "food_within:piglin_apple",
+    "category": "patchouli:test_category",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "This apple can be obtained by killing Zombie Pigman. It does not drop all the time and drops by a certain chance"
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Crystal Apple",
+    "icon": "food_within:crystal_apple",
+    "category": "patchouli:test_category",
+    "pages": [
+        {
+            "type": "patchouli:crafting",
+            "text": "The Crystal Apple is crafting using the most crystal like substances, beacons and prismarine crystals... The beacons just look like they belong in the recipe?",
+            "recipe": "food_within:crystal_apple_recipe",
+            "title": "Crystal Apple"
+        }
+    ]
+}

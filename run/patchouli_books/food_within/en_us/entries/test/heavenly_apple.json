@@ -1,0 +1,11 @@
+{
+    "name": "Heavenly Apple",
+    "icon": "food_within:heavenly_apple",
+    "category": "patchouli:test_category",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "This apple is made the same way as the Light Apple. But this time you use the Light Apple, the final form. This apple needs to have a light level of 14 and above and at a y-level of 100 or above. Beware this does make an explosion, though it wont break anything, may knock you off your platform or a mountain."
+        }
+    ]
+}

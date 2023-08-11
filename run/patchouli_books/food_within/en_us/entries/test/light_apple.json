@@ -1,0 +1,11 @@
+{
+    "name": "Light Apple",
+    "icon": "food_within:light_apple",
+    "category": "patchouli:test_category",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "This apple is made using a special way. By dropping a Incomplete Light Apple onto the ground and waiting a few seconds an explosion will happen. After the explosion happens the Light Apple will appear. For this to happen it needs a light level of 13 and above"
+        }
+    ]
+}

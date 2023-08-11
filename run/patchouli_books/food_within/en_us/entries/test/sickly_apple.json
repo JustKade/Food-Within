@@ -1,0 +1,11 @@
+{
+    "name": "Sickly Apple",
+    "icon": "food_within:sickly_apple",
+    "category": "patchouli:test_category",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "The Sickly Apple is dropped from Zombies, upon killing zombies they have a certain chance to drop the Sickly Apple"
+        }
+    ]
+}

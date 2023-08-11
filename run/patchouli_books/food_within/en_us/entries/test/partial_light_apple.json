@@ -1,0 +1,13 @@
+{
+    "name": "Partial Light Apple",
+    "icon": "food_within:partial_light_apple",
+    "category": "patchouli:test_category",
+    "pages": [
+        {
+            "type": "patchouli:crafting",
+            "text": "The Partial Light Apple is obtained by combining a Void Apple and a Nether Star inside of a Crafting Table",
+            "recipe": "food_within:void_to_partial_apple_recipe",
+            "title": "Partial Light Apple"
+        }
+    ]
+}

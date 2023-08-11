@@ -1,0 +1,13 @@
+{
+    "name": "Viral Apple",
+    "icon": "food_within:virus_apple",
+    "category": "patchouli:test_category",
+    "pages": [
+        {
+            "type": "patchouli:crafting",
+            "text": "The Viral Apple is crafted by using various harmful items in the game. You will need the Sickly Apple in order to craft the Viral Apple",
+            "recipe": "food_within:viral_apple_recipe",
+            "title": "Viral Apple"
+        }
+    ]
+}

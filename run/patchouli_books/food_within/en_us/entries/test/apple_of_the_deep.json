@@ -1,0 +1,11 @@
+{
+    "name": "Apple of the Deep",
+    "icon": "food_within:apple_of_the_deep",
+    "category": "patchouli:test_category",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "This apple can be obtained by killing the Warden. It does not drop everytime and only by a certain chance and may be lower depending on the mods you have that add drops to the Warden as well."
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Pathogen",
+    "icon": "food_within:pathogen",
+    "category": "patchouli:test_category",
+    "pages": [
+        {
+            "type": "patchouli:crafting",
+            "text": "A Deadly Pathogen lies within this apple. This apple can be crafted using the Viral Apple. Beware, the Pathogen apple will in fact kill you upon eating it. Is it worth it?",
+            "recipe": "food_within:pathogen_recipe",
+            "title": "Pathogen Apple"
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Void Apple",
+    "icon": "food_within:void_apple",
+    "category": "patchouli:test_category",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "The void apple is a special apple. An apple which can only be found within the End Dimension. To Find the Void Apple you just need to find an End City and loot the chests and you may find one."
+        }
+    ]
+}

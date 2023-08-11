@@ -1,0 +1,11 @@
+{
+    "name": "Dragon Apple",
+    "icon": "food_within:dragon_apple",
+    "category": "patchouli:test_category",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "The Dragon Apple can be obtained by killing the Ender Dragon, it should drop every time you kill the dragon, though that may change when adding other mods that add drops to the Ender Dragon as well."
+        }
+    ]
+}

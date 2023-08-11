@@ -1,0 +1,24 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "patchouli:food_within": {
+      "viewedEntries": [
+        "patchouli:test/test_entry",
+        "patchouli:test/pathogen",
+        "patchouli:test/dragon_apple",
+        "patchouli:test/pigman_apple",
+        "patchouli:test/sickly_apple",
+        "patchouli:test/viral_apple",
+        "patchouli:test/void_apple",
+        "patchouli:test/partial_light_apple",
+        "patchouli:test/light_apple",
+        "patchouli:test/heavenly_apple",
+        "patchouli:test/crystal_apple",
+        "patchouli:test/apple_of_the_deep"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    }
+  }
+}
