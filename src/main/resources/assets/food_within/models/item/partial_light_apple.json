@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "food_within:items/partial_light_apple"
-  }
-}
